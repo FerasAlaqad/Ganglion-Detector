@@ -3,6 +3,10 @@
 
 ### [Paper]() | [Train Dataset](https://portal.gdc.cancer.gov/projects/TCGA-LUAD) |  [Test Datasets](https://portal.gdc.cancer.gov/projects/TCGA-LUSC) | [Pretrained Model](https://www.dropbox.com/sh/x7fvxx1fiohxwb4/AAAObJJTJpIHHi-s2UafrKeea?dl=0) 
 
+## Prerequisites
+- Python 3
+- CPU or NVIDIA GPU + CUDA CuDNN
+
 ### Getting started
 
 - Clone this repo:
@@ -21,19 +25,39 @@ pip install -r requirements.txt
 The data used for training are expected to be organized as follows:
 ```bash
 Data_Path                # DIR_TO_TRAIN_DATASET
- ├──  trainA
+ ├──  Ege_Hospital_Train
+ |   ├── P
  |      ├── 1.png     
  |      ├── ...
  |      └── n.png
- ├──  trainB     
+ |   ├── n
  |      ├── 1.png     
  |      ├── ...
- |      └── m.png
- ├──  valA
+ |      └── n.png
+ ├──  Ege_Hospital_Internal_Test
+ |   ├── P
  |      ├── 1.png     
  |      ├── ...
- |      └── j.png
- └──  valB     
-        ├── 1.png     
-        ├── ...
-        └── k.png
+ |      └── n.png
+ |   ├── n
+ |      ├── 1.png     
+ |      ├── ...
+ |      └── n.png 
+ ├──  Behcet_Hospital_External_Test
+ |   ├── P
+ |      ├── 1.png     
+ |      ├── ...
+ |      └── n.png
+ |   ├── n
+ |      ├── 1.png     
+ |      ├── ...
+ |      └── n.png 
+ ├──  Medipol_Hospital_External_Test
+ |   ├── P
+ |      ├── 1.png     
+ |      ├── ...
+ |      └── n.png
+ |   ├── n
+ |      ├── 1.png     
+ |      ├── ...
+ |      └── n.png 
