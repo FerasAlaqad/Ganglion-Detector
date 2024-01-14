@@ -1,2 +1,2 @@
-# Ganglion-Detector
-The Future of Surgical Diagnostics: AI-Enhanced Detection of Ganglion Cells for Hirschsprung Disease 
+# The Future of Surgical Diagnostics: AI-Enhanced Detection of Ganglion Cells for Hirschsprung Disease 
+<img src="imgs/overview.jpeg" width="800px"/>
