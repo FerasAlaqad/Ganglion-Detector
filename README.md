@@ -63,12 +63,7 @@ Data_Path                # DIR_TO_TRAIN_DATASET
 ```
 
 
-- Train the AI-FFPE model:
-```bash
-python train.py --dataroot ./datasets/Frozen/${dataroot_train_dir_name} --name ${model_results_dir_name} --CUT_mode CUT --batch_size 1
-```
-
-- Test the AI-FFPE  model:
+- Test the Ganglion-Detector  model:
 ```bash
 python test.py --dataroot ./datasets/Frozen/${dataroot_test_dir_name}  --name ${result_dir_name} --CUT_mode CUT --phase test --epoch ${epoch_number} --num_test ${number_of_test_images}
 ```
