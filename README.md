@@ -7,15 +7,9 @@
 
 - Clone this repo:
 ```bash
-git clone https://github.com/DeepMIALab/AI-FFPE
-cd AI-FFPE
+git clone https://github.com/FerasAlaqad/Ganglion-Detector
+pip install -r requirements.txt
 ```
-
-- Install PyTorch 1.1 and other dependencies (e.g., torchvision, visdom, dominate, gputil).
-
-- For pip users, please type the command `pip install -r requirements.txt`.
-
-- For Conda users,  you can create a new Conda environment using `conda env create -f environment.yml`.
 
 
 ### Training and Test
