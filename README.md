@@ -19,7 +19,7 @@ cd Ganglion-Detector
 ```bash
 conda env create -f environment.yml
 ```
-### Training and Test
+### Training and Testing
 
 The data used for training and testing expected to be organized as follows:
 ```bash
