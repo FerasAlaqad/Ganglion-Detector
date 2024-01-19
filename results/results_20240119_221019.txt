@@ -1,0 +1,5 @@
+Test Directory: ./Behcet_Uz_Cocuk_Hospital_External_Test
+Precision: 0.9502
+Recall: 0.9153
+F1 Score: 0.9324
+Accuracy: 0.9281

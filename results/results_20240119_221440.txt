@@ -1,0 +1,5 @@
+Test Directory: ./Medipol_Hospital_External_Test
+Precision: 0.9022
+Recall: 0.8543
+F1 Score: 0.8776
+Accuracy: 0.9010

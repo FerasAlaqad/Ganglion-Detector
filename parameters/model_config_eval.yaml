@@ -1,0 +1,14 @@
+
+model_path: models/model.pth  # Path to the pre-trained model for evaluation
+evaluation_config:
+  input_size:
+    height: 512
+    width: 512
+  normalization_mean: [0.5, 0.5, 0.5]
+  normalization_std: [0.5, 0.5, 0.5]
+model_parameters:
+  dropout: 0.5
+  linear_units: 2048
+evaluation_parameters:
+  batch_size: 1
+  test_dir: /truba/home/proj3/feras/Hirschsprung/dataset/hirschsprung/datasets/dataset13/Medipol/Medipol_Hospital_External_Test  # Directory containing test images

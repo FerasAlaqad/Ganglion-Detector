@@ -1,0 +1,14 @@
+# parameters/model_config_train.yaml
+
+model_path: models/pretrained_resnet.pth  # Path to the pre-trained ResNet model for transfer learning
+train_config:
+  train_dir: data/train_images  # Directory containing training images
+  output_model: models/trained_model.pth  # Path to save the trained model
+  learning_rate: 0.001
+  batch_size: 32
+  num_epochs: 10
+  weight_decay: 0.0001
+  dropout: 0.5
+  linear_units: 2048
+  class_labels: 2  # Number of classes for your classification task
+
