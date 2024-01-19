@@ -66,10 +66,11 @@ Data_Path                # DIR_TO_TRAIN_DATASET
 
 
 - Test the Ganglion-Detector  model:
+  After editing the model_path and test_dir in model_config_eval.yaml
 ```bash
-python test.py --dataroot ./datasets/Frozen/${dataroot_test_dir_name}  --name ${result_dir_name} --CUT_mode CUT --phase test --epoch ${epoch_number} --num_test ${number_of_test_images}
+python inference.py
 ```
 
-The test results will be saved to a html file here: ``` ./results/${result_dir_name}/latest_train/index.html ``` 
+The test results will be saved to results folder. 
 
 
