@@ -13,10 +13,12 @@
 ```bash
 git clone https://github.com/FerasAlaqad/Ganglion-Detector
 cd Ganglion-Detector
-conda env create -f environment.yml
 ```
 
-
+- Create a new conda environment:
+```bash
+conda env create -f environment.yml
+```
 ### Training and Test
 
 The data used for training and testing expected to be organized as follows:
