@@ -1,1 +1,0 @@
-Please download the datasets, then update the associated config file located in the parameters folder.
