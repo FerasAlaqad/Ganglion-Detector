@@ -1,3 +1,4 @@
 .*sh
 .*out
+.*pth
 /utils/__pycache__
