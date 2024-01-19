@@ -65,7 +65,7 @@ Data_Path                # DIR_TO_TRAIN_DATASET
 ```
 
 
-- Test the Ganglion-Detector  model:
+- Test the Ganglion-Detector  model:<br />
   After editing the model_path and test_dir in model_config_eval.yaml
 ```bash
 python inference.py
