@@ -13,7 +13,7 @@
 ```bash
 git clone https://github.com/FerasAlaqad/Ganglion-Detector
 cd Ganglion-Detector
-pip install -r requirements.txt
+conda env create -f environment.yml
 ```
 
 
