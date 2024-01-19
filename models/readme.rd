@@ -1,1 +1,0 @@
-Please download the model and place it here, then update the associated config file located in the parameters folder.
