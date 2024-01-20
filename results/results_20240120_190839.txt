@@ -1,0 +1,5 @@
+Test Directory: /truba/home/proj3/feras/Hirschsprung/dataset/hirschsprung/datasets/dataset13/Ege/model_mixed_after_model_results/Ege_Hospital_Internal_Test
+Precision: 0.9294
+Recall: 0.8970
+F1 Score: 0.9129
+Accuracy: 0.9131
