@@ -11,4 +11,4 @@ model_parameters:
   linear_units: 2048
 evaluation_parameters:
   batch_size: 1
-  test_dir: datasets/Ege_Hospital_Internal_Test  # Directory containing test images
+  test_dir: /truba/home/proj3/feras/Hirschsprung/dataset/hirschsprung/datasets/dataset13/Ege/model_mixed_after_model_results/Ege_Hospital_Internal_Test # Directory containing test images

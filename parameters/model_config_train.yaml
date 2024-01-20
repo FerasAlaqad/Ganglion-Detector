@@ -1,14 +1,33 @@
-# parameters/model_config_train.yaml
-
-model_path: models/pretrained_resnet.pth  # Path to the pre-trained ResNet model for transfer learning
 train_config:
-  train_dir: data/train_images  # Directory containing training images
-  output_model: models/trained_model.pth  # Path to save the trained model
-  learning_rate: 0.001
-  batch_size: 32
-  num_epochs: 10
-  weight_decay: 0.0001
+  train_dir: /truba/home/proj3/feras/Hirschsprung/dataset/hirschsprung/datasets/dataset13/Ege/model_mixed_after_model_results/Ege_Hospital_Internal_Test  # Directory containing training images
+  test_dir: /truba/home/proj3/feras/Hirschsprung/dataset/hirschsprung/datasets/dataset13/Ege/model_mixed_after_model_results/Ege_Hospital_Internal_Test    # Directory containing test images
+  save_dir: exp             # Directory to save the model and results
+  batch_size: 16
+  epochs: 50
+  lr: 0.0001
   dropout: 0.5
+  image_size: 512
+  num_classes: 2
   linear_units: 2048
-  class_labels: 2  # Number of classes for your classification task
-
+  weight_decay: 0.00001
+  transformations:
+    resize: [512, 512]
+    to_tensor: true
+    normalize_mean: [0.5, 0.5, 0.5]
+    normalize_std: [0.5, 0.5, 0.5]
+  transformations_jitter:
+    resize: [512, 512]
+    random_horizontal_flip: true
+    random_vertical_flip: true
+    random_rotation: 30
+    color_jitter:
+      brightness: 0.3
+      contrast: 0.3
+      saturation: 0.3
+      hue: 0.1
+    random_crop:
+      size: [512, 512]
+      padding: 10
+    to_tensor: true
+    normalize_mean: [0.5, 0.5, 0.5]
+    normalize_std: [0.5, 0.5, 0.5]
