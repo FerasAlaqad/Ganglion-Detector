@@ -62,13 +62,17 @@ Data_Path                # DIR_TO_TRAIN_DATASET
 
 ```
 
+Before running the training and inference scripts, please make sure to edit the config files to set the necessary parameters.
 
-- Test the Ganglion-Detector  model:<br />
-  After editing the model_path and test_dir in model_config_eval.yaml
+- Train the Ganglion-Detector model:
+```bash
+python train.py
+```
+
+- Test the Ganglion-Detector  model:
 ```bash
 python inference.py
 ```
-
 The test results will be saved to results folder. 
 
 
