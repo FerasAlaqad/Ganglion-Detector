@@ -1,6 +1,6 @@
 train_config:
-  train_dir: /truba/home/proj3/feras/Hirschsprung/dataset/hirschsprung/datasets/dataset13/Ege/model_mixed_after_model_results/Ege_Hospital_Internal_Test  # Directory containing training images
-  test_dir: /truba/home/proj3/feras/Hirschsprung/dataset/hirschsprung/datasets/dataset13/Ege/model_mixed_after_model_results/Ege_Hospital_Internal_Test    # Directory containing test images
+  train_dir: ./Ege_Hospital_Train  # Directory containing training images
+  test_dir: ./Ege_Hospital_Val   # Directory containing test images
   save_dir: exp             # Directory to save the model and results
   batch_size: 16
   epochs: 50
